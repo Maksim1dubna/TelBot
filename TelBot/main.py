@@ -8,7 +8,7 @@ from crud_functions import *
 
 initiate_db()
 
-api = '7215043429:AAG_uzDkLgv7e9LrzVKydxHdx5GVdHlHcYg'
+api = ''
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 kb1 = ReplyKeyboardMarkup(resize_keyboard=True)
